@@ -4,21 +4,23 @@ const NewArrivalsSection = () => {
   const newArrivalBikes = [
     {
       name: "norco youth bicycle",
-      image: "/images/b2.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-6.png`,
     },
     {
-      name: "  mt bromo n7",
-      image: "/images/MTBROMO_N7_2022.png",
+      name: "mt bromo n7",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-1.png`,
     },
     {
       name: "haibike xduro rx",
-      image: "/images/b1.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-5.png`,
     },
     {
       name: "polygon siskiu",
-      image: "/images/531352.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-4.png`,
     },
   ];
+
+  const card2 = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-2.png`
 
   return (
     <div className="section">
@@ -41,7 +43,7 @@ const NewArrivalsSection = () => {
               <div className="product-card product-card-large">
                 <a href="#">
                   <div className="product-card-img">
-                    <img src="/images/Polygon Cascade.png" alt="" />
+                    <img src={card2} alt="" />
                   </div>
                   <h3 className="product-name">polygon cascade</h3>
                   <span className="product-price">$3,900.00</span>

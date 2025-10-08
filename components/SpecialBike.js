@@ -1,4 +1,5 @@
 const SpecialBike = () => {
+  const imagePath = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-3.png`;
   return (
     <div className="section special-section">
       <div className="section-title">
@@ -13,7 +14,7 @@ const SpecialBike = () => {
       </div>
       <div className="special-img">
         <img
-          src="/images/6489548.png"
+          src={imagePath}
           alt=""
           className="to-left show-on-scroll"
         />

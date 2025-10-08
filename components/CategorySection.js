@@ -4,15 +4,15 @@ const CategorySection = () => {
   const categoryData = [
     {
       category: "Urban",
-      image: "/images/alvan-nee-EHILKZNmTuA-unsplash.jpg",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-1.jpg`,
     },
     {
       category: "mountain",
-      image: "/images/eberhard-grossgasteiger-8lDkmXnKo7s-unsplash.jpg",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-4.jpg`,
     },
     {
       category: "Road",
-      image: "/images/tom-austin-3L76b-LMyeI-unsplash.jpg",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-2.jpg`,
     },
   ];
 

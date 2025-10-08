@@ -2,9 +2,9 @@ import NewsItem from "./NewsItem";
 
 const NewsSection = () => {
   const newsData = [
-    { image: "/images/asoggetti-HPpj2190tGs-unsplash.jpg" },
-    { image: "/images/paolo-chiabrando-KSwd2lb3lfs-unsplash.jpg" },
-    { image: "/images/portuguese-gravity-MLbsn2aQfQs-unsplash.jpg" },
+    { image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-6.jpg` },
+    { image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-5.jpg` },
+    { image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/bg-3.jpg` },
   ];
 
   return (

@@ -13,7 +13,6 @@ const MyApp = ({ Component, pageProps }) => {
           name="description"
           content="Bikes E-commerce store landing page"
         />
-        <link rel="icon" href="/bike.png" />
       </Head>
       <Component {...pageProps} />
     </>

@@ -4,15 +4,15 @@ const Hero = () => {
   const bikeData = [
     {
       name: "polygon siskiu",
-      image: "/images/MTBROMO_N7_2022.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-1.png`,
     },
     {
       name: "mt bromo n7",
-      image: "/images/6489548.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-3.png`,
     },
     {
       name: "cascade mount",
-      image: "/images/b1.png",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/card-5.png`,
     },
   ];
 
