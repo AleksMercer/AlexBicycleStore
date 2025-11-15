@@ -16,10 +16,10 @@ const Footer = () => {
               </h1>
             </a>
             <p className="footer-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio, consequuntur obcaecati. Debitis sed velit, aliquid
-              nihil, omnis illo dignissimos, quod vitae repellat quo nam quas
-              similique cum molestias et fugiat.
+              We are your trusted partner in the world of cycling, offering a
+              curated selection of premium bikes for every terrain and
+              adventure. Our mission is to fuel your passion and help you
+              discover the joy of the ride, one journey at a time.
             </p>
             <ul className="socials">
               <li>
@@ -74,10 +74,9 @@ const Footer = () => {
           <div className="col-4">
             <h3 className="footer-header">news letter</h3>
             <p className="footer-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              quibusdam enim quaerat natus sit beatae. Corrupti error explicabo
-              commodi beatae non. Aut ipsam nemo quibusdam quia molestias, non
-              maiores reprehenderit.
+              Stay in the loop! Subscribe to our newsletter for exclusive deals,
+              the latest bike news, and expert tips delivered directly to your
+              inbox. Don't miss out on your next great adventure.
             </p>
             <div className="subscribe-form">
               <input type="text" name="" placeholder="Your Email..." />
