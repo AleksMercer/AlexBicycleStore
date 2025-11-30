@@ -6,14 +6,16 @@ const SlideItem = ({ name, image, description }) => {
           <h3>{name}</h3>
         </div>
         <div className="slide-description">
-          {/* <div className="section-title">
+          <div
+            className="section-title best-seller-badge"
+            style={{ display: "none" }}
+          >
             <h3 className="second-title">best seller</h3>
-          </div> 
-          */}
+          </div>
           <p>{description}</p>
         </div>
         <div className="slide-btn">
-          <a href="#" className="hero-btn">
+          <a href="#" className="hero-btn buy-now-btn">
             buy now
           </a>
         </div>

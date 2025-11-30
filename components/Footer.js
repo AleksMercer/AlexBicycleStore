@@ -76,7 +76,7 @@ const Footer = () => {
             <p className="footer-description">
               Stay in the loop! Subscribe to our newsletter for exclusive deals,
               the latest bike news, and expert tips delivered directly to your
-              inbox. Don't miss out on your next great adventure.
+              inbox. Don&apos;t miss out on your next great adventure.
             </p>
             <div className="subscribe-form">
               <input type="text" name="" placeholder="Your Email..." />
