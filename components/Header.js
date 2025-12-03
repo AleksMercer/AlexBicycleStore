@@ -1,49 +1,28 @@
 const Header = () => {
   return (
     <header>
-      <a href="#" className="logo">
+       <a href="https://github.com/AleksMercer/AlexBicycleStore" className="logo">
         <h1
           style={{ fontSize: "3rem", fontWeight: "900", letterSpacing: "2px" }}
         >
           Alex K Bikes
         </h1>
-      </a>
-      <div className="main-menu-wrapper">
-        <ul className="main-menu">
-          <li>
-            <a href="#" className="active">
-              home
-            </a>
-          </li>
-          <li>
-            <a href="#">shop</a>
-          </li>
-          <li>
-            <a href="#">dealer</a>
-          </li>
-          <li>
-            <a href="#">about</a>
-          </li>
-          <li>
-            <a href="#">contact</a>
-          </li>
-        </ul>
-      </div>
+       </a>
       <ul className="user-menu">
         <li>
-          <a href="#">
+           <span>
             <i className="bx bx-shopping-bag"></i>
-          </a>
+           </span>
         </li>
         <li>
-          <a href="#">
+           <span>
             <i className="bx bx-user"></i>
-          </a>
+           </span>
         </li>
         <li>
-          <a href="#">
+           <span>
             <i className="bx bx-search"></i>
-          </a>
+           </span>
         </li>
       </ul>
     </header>

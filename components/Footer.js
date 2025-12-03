@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="section-content">
         <div className="row">
           <div className="col-4">
-            <a href="#" className="logo">
+            <a href="https://github.com/AleksMercer/AlexBicycleStore" className="logo">
               <h1
                 style={{
                   fontSize: "3rem",
@@ -23,53 +23,25 @@ const Footer = () => {
             </p>
             <ul className="socials">
               <li>
-                <a href="#">
+                <a href="https://github.com/AleksMercer/AlexBicycleStore">
                   <i className="bx bxl-facebook-circle"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com/AleksMercer/AlexBicycleStore">
                   <i className="bx bxl-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com/AleksMercer/AlexBicycleStore">
                   <i className="bx bxl-youtube"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-2">
-            <ul className="footer-menu">
-              <li>
-                <a href="#">about</a>
-              </li>
-              <li>
-                <a href="#">service</a>
-              </li>
-              <li>
-                <a href="#">product</a>
-              </li>
-              <li>
-                <a href="#">contact</a>
-              </li>
-            </ul>
           </div>
-          <div className="col-2">
-            <ul className="footer-menu">
-              <li>
-                <a href="#">gallery</a>
-              </li>
-              <li>
-                <a href="#">gears</a>
-              </li>
-              <li>
-                <a href="#">faq</a>
-              </li>
-              <li>
-                <a href="#">contact</a>
-              </li>
-            </ul>
+          <div className="col-2">     
           </div>
           <div className="col-4">
             <h3 className="footer-header">news letter</h3>

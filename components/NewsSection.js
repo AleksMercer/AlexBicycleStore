@@ -29,13 +29,6 @@ const NewsSection = () => {
       <div className="section-title">
         <h3 className="second-title to-right show-on-scroll">bike news</h3>
         <h3 className="main-title to-left show-on-scroll">latest news</h3>
-        <div className="btn-wrapper">
-          <div className=" to-top show-on-scroll">
-            <a href="#" className="btn">
-              view all news
-            </a>
-          </div>
-        </div>
       </div>
       <div className="section-content">
         <div className="row">

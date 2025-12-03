@@ -95,8 +95,8 @@ header.shrink {
   margin-left: 84px;
 }
 
-.main-menu > li > a:hover,
-.user-menu > li > a:hover {
+.main-menu > li > span:hover,
+.user-menu > li > span:hover {
   color: var(--txt-white);
 }
 
@@ -106,7 +106,7 @@ header.shrink {
   justify-content: center;
 }
 
-.user-menu > li > a > i {
+.user-menu > li > span > i {
   font-size: 1.5rem;
 }
 

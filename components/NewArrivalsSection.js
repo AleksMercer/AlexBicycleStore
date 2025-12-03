@@ -27,13 +27,6 @@ const NewArrivalsSection = () => {
       <div className="section-title">
         <h3 className="second-title to-right show-on-scroll">new bikes</h3>
         <h3 className="main-title to-left show-on-scroll">new arrivals</h3>
-        <div className="btn-wrapper">
-          <div className="to-top show-on-scroll">
-            <a href="#" className="btn ">
-              view all bikes
-            </a>
-          </div>
-        </div>
       </div>
 
       <div className="section-content">

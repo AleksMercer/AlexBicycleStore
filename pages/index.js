@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 import NewArrivalsSection from "../components/NewArrivalsSection";
 import NewsSection from "../components/NewsSection";
 import PopularSection from "../components/PopularSection";
-import SpecialBike from "../components/SpecialBike";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -127,8 +126,6 @@ const Home = () => {
       <Hero />
       <CategorySection />
       <NewArrivalsSection />
-      <SpecialBike />
-      <PopularSection />
       <NewsSection />
       <Footer />
     </>

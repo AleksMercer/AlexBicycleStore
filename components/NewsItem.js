@@ -14,9 +14,6 @@ const NewsItem = ({ image, title, description }) => {
           <a href="#">{title}</a>
         </h3>
         <p className="news-preview">{description}</p>
-        <a href="#" className="btn">
-          read more
-        </a>
       </div>
     </div>
   );
